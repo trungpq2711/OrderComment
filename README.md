@@ -6,7 +6,8 @@
 # Config 
     Store -> Configuration -> Sales -> Sales -> General -> Enable Update Order Comment
     Store -> Configuration -> Sales -> Sales -> General -> Order Comment
-    ![img.png](img.png)
+   ![img](https://user-images.githubusercontent.com/15412007/140307877-6f750688-22de-4430-961d-b93330e07cff.png)
+
 # Run queue manually 
     bin/magento queue:consumers:start order.comment
    
