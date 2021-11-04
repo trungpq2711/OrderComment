@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/queue.xsd">
+    <broker topic="order.comment" exchange="magento-db" type="db">
+        <queue name="order.comment" consumer="order.comment"
+               consumerInstance="Magento\Framework\MessageQueue\Consumer" handler="Trung\OrderComment\Model\Queue\Consumer::process"/>
+    </broker>
+</config>

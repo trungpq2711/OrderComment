@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework-message-queue:etc/consumer.xsd">
+    <consumer name="order.comment" queue="order.comment" connection="db" maxMessages="100" handler="Trung\OrderComment\Model\Queue\Consumer::process"/>
+</config>
