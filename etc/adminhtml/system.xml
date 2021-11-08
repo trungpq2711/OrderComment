@@ -9,7 +9,7 @@
                 </field>
                 <field id="order_comment" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
                     <label>Order Comment</label>
-                    <comment>This text will ad to order comment wil queue process.</comment>
+                    <comment>This text will add to order comment when queue process.</comment>
                 </field>
             </group>
         </section>

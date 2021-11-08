@@ -46,7 +46,7 @@ class Consumer
         if ($orderComment){
             try {
                 $order = $this->orderInterface->loadByIncrementId($orderId);
-                $order->addCommentToStatusHistory('Test Order Comment');
+                $order->addCommentToStatusHistory($orderComment);
                 $this->orderInterface->save($order);
             } catch (\Exception $e){
                 $this->logger->debug($e->getMessage());
